@@ -735,3 +735,76 @@ footer {
     0 0 20px rgba(255, 106, 223, 0.5),
     0 0 40px rgba(255, 106, 223, 0.3);
 }
+
+/* MERCH PAGE */
+
+.merch-page {
+
+    width: 90%;
+
+    margin: auto;
+
+    padding-top: 60px;
+
+    padding-bottom: 80px;
+}
+
+.merch-page h1 {
+
+    text-align: center;
+
+    font-size: 56px;
+}
+
+.merch-subtitle {
+
+    text-align: center;
+
+    color: #d4d4d4;
+
+    margin-bottom: 50px;
+}
+
+.merch-grid {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.merch-card {
+
+    background:
+    rgba(255, 255, 255, 0.08);
+
+    border-radius: 25px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+    backdrop-filter: blur(8px);
+
+    box-shadow:
+    0 0 20px rgba(255, 0, 180, 0.15);
+}
+
+.merch-card:hover {
+
+    transform:
+    translateY(-8px)
+    scale(1.02);
+
+    box-shadow:
+    0 0 20px rgba(255, 106, 223, 0.5),
+    0 0 40px rgba(255, 106, 223, 0.3);
+}

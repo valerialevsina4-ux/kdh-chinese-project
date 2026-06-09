@@ -922,14 +922,6 @@ footer {
     gap: 25px;
 }
 
-@media (max-width: 768px) {
-
-    .vocabulary-grid {
-
-        grid-template-columns: 1fr;
-    }
-}
-
 .vocab-card {
 
     background: rgb(250, 150, 240);

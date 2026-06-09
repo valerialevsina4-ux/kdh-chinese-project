@@ -917,7 +917,8 @@ footer {
 
     display: grid;
 
-    grid-template-columns: 1fr 1 fr;
+    grid-template-columns:
+    repeat(2, 1fr);
 
     gap: 25px;
 }

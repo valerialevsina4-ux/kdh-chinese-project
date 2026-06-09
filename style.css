@@ -905,3 +905,20 @@ footer {
     box-shadow:
     0 0 15px rgba(255, 0, 180, 0.15);
 }
+
+.page-header {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.vocabulary-grid {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 25px;
+}

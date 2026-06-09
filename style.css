@@ -922,3 +922,41 @@ footer {
 
     gap: 25px;
 }
+
+.vocab-card {
+
+    background: white;
+
+    color: #222;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.vocab-card h2 {
+
+    margin-bottom: 10px;
+}
+
+.vocab-card p {
+
+    line-height: 1.6;
+}
+
+.vocab-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+
+    0 0 10px #ff66cc,
+    0 0 20px #ff66cc,
+    0 0 40px #ff66cc;
+
+    cursor: pointer;
+}

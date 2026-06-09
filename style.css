@@ -960,3 +960,114 @@ footer {
 
     cursor: pointer;
 }
+
+.page-header {
+  
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.hero-image {
+
+    margin-bottom: 50px;
+}
+
+.hero-image img {
+
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+.vocab-section {
+
+    margin-bottom: 60px;
+}
+
+.vocab-section h2 {
+
+    margin-bottom: 25px;
+
+    color: white;
+
+    font-size: 2rem;
+}
+
+.word-grid {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .word-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.word-card {
+
+    background: white;
+
+    color: #222;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.word-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+
+    0 0 10px #ff66cc,
+    0 0 20px #ff66cc,
+    0 0 40px #ff66cc;
+}
+
+.word-card h3 {
+
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+}
+
+.word-card p {
+
+    color: #888;
+
+    margin-bottom: 10px;
+}
+
+.divider-image {
+
+    margin: 40px 0;
+}
+
+.divider-image img {
+
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+.word-day {
+
+    margin-top: 80px;
+
+    text-align: center;
+}

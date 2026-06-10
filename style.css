@@ -1058,12 +1058,15 @@ footer {
 
 .divider-image {
 
+    text-align: center;
+
     margin: 40px 0;
 }
 
 .divider-image img {
 
-    width: 50%;
+    width: 100%;
+    max-width: 900px;
 
     border-radius: 20px;
 }

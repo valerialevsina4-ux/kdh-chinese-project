@@ -970,12 +970,15 @@ footer {
 
 .hero-image {
 
+    text-align: center;
+
     margin-bottom: 50px;
 }
 
 .hero-image img {
 
-    width: 50%;
+    width: 100%;
+    max-width: 900px;
 
     border-radius: 20px;
 }

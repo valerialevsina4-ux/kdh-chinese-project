@@ -1106,7 +1106,7 @@ footer {
 
 .sentence-card {
 
-    background: rgb(250, 176, 240);
+    background: rgb(208, 88, 255);
 
     color: #222;
 
@@ -1115,4 +1115,15 @@ footer {
     padding: 25px;
 
     text-align: center;
+}
+
+.sentence-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+
+    0 0 10px #4d01b0,
+    0 0 20px #6601d3,
+    0 0 40px #7a00ff;
 }

@@ -1115,6 +1115,8 @@ footer {
     padding: 25px;
 
     text-align: center;
+
+    transition: all 0.3s ease;
 }
 
 .sentence-card:hover {

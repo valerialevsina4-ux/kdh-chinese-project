@@ -1022,9 +1022,9 @@ footer {
 
     color: #222;
 
-    border-radius: 10px;
+    border-radius: 15px;
 
-    padding: 20px;
+    padding: 10px;
 
     text-align: center;
 
@@ -1044,18 +1044,18 @@ footer {
 
 .word-card h3 {
 
-    font-size: 3rem;
+    font-size: 2.5rem;
 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .word-card p {
 
     color: #641963;
 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .divider-image {

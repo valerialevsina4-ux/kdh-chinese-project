@@ -1103,7 +1103,9 @@ footer {
 
 .learn-chinese {
 
-    margin-top: 80px;
+    margin-top: 160px;
+
+    text-align: center;
 }
 
 .sentence-card {
@@ -1114,7 +1116,7 @@ footer {
 
     border-radius: 20px;
 
-    padding: 25px;
+    padding: 15px;
 
     text-align: center;
 

@@ -1047,6 +1047,8 @@ footer {
     font-size: 2.5rem;
 
     margin-bottom: 10px;
+
+    margin-top: 10px;
 }
 
 .word-card p {
@@ -1099,13 +1101,19 @@ footer {
 .vocab-category {
 
     margin-bottom: 60px;
+
+    text-align: center;
+
+    font-size: 3rem;
 }
 
 .learn-chinese {
 
-    margin-top: 160px;
+    margin-top: 80px;
 
     text-align: center;
+
+    font-size: 3rem;
 }
 
 .sentence-card {

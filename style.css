@@ -1060,6 +1060,15 @@ footer {
     font-size: 1.5rem;
 }
 
+.word-card span {
+
+    color: #222;
+
+    font-size: 1rem;
+
+    font-weight: 500;
+}
+
 .divider-image {
 
     text-align: center;

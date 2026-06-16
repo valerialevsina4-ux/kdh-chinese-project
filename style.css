@@ -1022,7 +1022,7 @@ footer {
 
     color: #222;
 
-    border-radius: 20px;
+    border-radius: 10px;
 
     padding: 20px;
 
@@ -1051,9 +1051,11 @@ footer {
 
 .word-card p {
 
-    color: #888;
+    color: #641963;
 
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+
+    font-size: 2rem;
 }
 
 .divider-image {

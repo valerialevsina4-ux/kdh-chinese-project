@@ -1199,9 +1199,11 @@ footer {
 
 .culture-image {
 
+    margin: 40px 0;
+
     width: 100%;
 
-    height: 350px;
+    max-width: 900px;
 
     object-fit: cover;
 

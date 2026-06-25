@@ -1185,3 +1185,24 @@ footer {
 
     font-size: 1.5rem;
 }
+
+.culture-card {
+
+    max-width: 900px;
+
+    margin: 3rem auto;
+
+    padding: 2rem;
+}
+
+.culture-image {
+
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+.culture-title {
+    
+    text-align: center;
+}

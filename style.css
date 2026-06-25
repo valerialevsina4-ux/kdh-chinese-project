@@ -1199,7 +1199,7 @@ footer {
 
 .culture-image img {
 
-    margin: 40px 0;
+    margin: 20px 0;
 
     width: 100%;
 
@@ -1210,6 +1210,17 @@ footer {
     border-radius: 20px;
 
     text-align: center;
+}
+
+.culture-image:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+
+    0 0 15px #4d01b0,
+    0 0 30px #6601d3,
+    0 0 60px #7a00ff;
 }
 
 .culture-title {

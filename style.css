@@ -1197,7 +1197,7 @@ footer {
     border-radius: 24px;
 }
 
-.culture-image {
+.culture-image img {
 
     margin: 40px 0;
 
@@ -1214,6 +1214,18 @@ footer {
 
 .culture-title {
 
+    background:
+    rgba(205, 86, 201, 0.75);
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+    0 0 15px rgba(255, 0, 180, 0.15);
+
     text-align: center;
 
     margin-top: 1.5rem;
@@ -1221,9 +1233,9 @@ footer {
 
 .culture-title korean {
 
-    font-size: 2.5rem;
+    font-size: 3rem;
 
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 
     margin-top: 10px;
 }
@@ -1232,16 +1244,18 @@ footer {
 
     color: #222;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     font-weight: 400;
+
+    margin-bottom: 50px;
 }
 
 .culture-title pinyin {
 
     color: #641963;
 
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 
     font-size: 1.5rem;
 }

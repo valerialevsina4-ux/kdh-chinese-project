@@ -1243,9 +1243,7 @@ footer {
 
     font-size: 3rem;
 
-    margin-bottom: 50px;
-
-    margin-top: 10px;
+    margin: 20px 0;
 }
 
 .culture-title chinese {
@@ -1256,18 +1254,16 @@ footer {
 
     font-weight: 400;
 
-    margin-bottom: 50px;
+    margin: 20px 0;
 }
 
 .culture-title pinyin {
 
     color: #ffffff;
 
-    margin-bottom: 50px;
+    margin: 20px 0;
 
     font-size: 1.5rem;
-
-    margin-top: 20px;
 }
 
 .culture-info {

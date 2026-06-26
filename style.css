@@ -1239,14 +1239,14 @@ footer {
     margin-top: 1.5rem;
 }
 
-.culture-title korean {
+.culture-title h1 {
 
     font-size: 3rem;
 
     margin: 20px 0;
 }
 
-.culture-title chinese {
+.culture-title h2 {
 
     color: #feb5fe;
 
@@ -1257,7 +1257,7 @@ footer {
     margin: 20px 0;
 }
 
-.culture-title pinyin {
+.culture-title h3 {
 
     color: #ffffff;
 

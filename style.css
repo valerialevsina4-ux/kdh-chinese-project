@@ -1328,9 +1328,7 @@ footer {
 
 .merch-image img {
 
-    max-width: 160px;
-
-    max-height: 160px;
+    max-height: 180px;
 
     object-fit: cover;
 }

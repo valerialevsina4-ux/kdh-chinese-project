@@ -1292,6 +1292,8 @@ footer {
 
 .culture-info h2 {
 
+    text-align: left;
+
     font-size: 2rem;
 
     margin: 15px 0;

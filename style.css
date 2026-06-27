@@ -1215,9 +1215,9 @@ footer {
 
     box-shadow:
 
-    0 0 15px #2c055f,
-    0 0 30px #9042e2,
-    0 0 60px #795f87;
+    0 0 30px #2c055f,
+    0 0 60px rgba(121, 53, 153, 0.75),
+    0 0 120px #c976f5;
 }
 
 .culture-title {

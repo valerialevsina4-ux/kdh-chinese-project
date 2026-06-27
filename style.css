@@ -1280,3 +1280,17 @@ footer {
     box-shadow:
     0 0 15px rgba(255, 0, 180, 0.15);
 }
+
+.culture-card h2 {
+
+    text-align: center;
+
+    margin: 15px 0;
+}
+
+.culture-info h2 {
+
+    text-align: center;
+
+    margin: 15px 0;
+}

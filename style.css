@@ -937,7 +937,7 @@ footer {
 
     transition: all 0.3s ease;
 
-    height: 100px;
+    height: 130px;
 }
 
 .vocab-card h2 {
@@ -952,6 +952,8 @@ footer {
     line-height: 1.6;
 
     font-size: 1.2rem;
+
+    margin-bottom: 20px;
 }
 
 .vocab-card:hover {

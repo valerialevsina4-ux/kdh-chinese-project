@@ -936,16 +936,22 @@ footer {
     text-decoration: none;
 
     transition: all 0.3s ease;
+
+    height: 100px;
 }
 
 .vocab-card h2 {
 
     margin-bottom: 10px;
+
+    font-size: 2rem;
 }
 
 .vocab-card p {
 
     line-height: 1.6;
+
+    font-size: 1.2rem;
 }
 
 .vocab-card:hover {

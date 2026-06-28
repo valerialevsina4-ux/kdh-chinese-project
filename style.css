@@ -1478,11 +1478,26 @@ footer {
     margin-bottom: 1rem;
 }
 
-.doll-display {
+.doll-detail {
 
     display: flex;
 
     justify-content: space-between;
 
     margin: 0.6rem 0;
+}
+
+.doll-content p {
+
+    margin-top: 1rem;
+
+    line-height: 1.6;
+}
+
+@media(max-width: 768px) {
+
+    .doll-image {
+
+        height: 260px;
+    }
 }

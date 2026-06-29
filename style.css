@@ -1431,9 +1431,11 @@ footer {
 
 .dolls-grid {
 
-    display: grid;
+    display: flex;
 
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    flex-wrap: wrap;
+
+    justify-content: center;
 
     gap: 2rem;
 }

@@ -1447,6 +1447,8 @@ footer {
     overflow: hidden;
 
     transition: 0.3s;
+
+    width: 300px;
 }
 
 .doll-card:hover {

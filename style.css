@@ -1530,6 +1530,14 @@ footer {
     border-radius: 24px;
 
     margin-top: -2rem;
+
+    transform: translateY(-8px);
+
+    box-shadow:
+
+    0 0 10px #a30064,
+    0 0 20px #ff00a6,
+    0 0 30px #ff7dd2;
 }
 
 .set-info h3 {
@@ -1568,15 +1576,4 @@ footer {
     text-align: center;
 
     line-height: 1.7;
-}
-
-.set-info:hover {
-
-    transform: translateY(-8px);
-
-    box-shadow:
-
-    0 0 10px #a30064,
-    0 0 20px #ff00a6,
-    0 0 30px #ff7dd2;
 }

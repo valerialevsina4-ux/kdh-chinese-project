@@ -1587,6 +1587,16 @@ footer {
     padding: 3rem 0 5rem;
 
     text-align: center;
+
+    min-height: 80vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
 }
 
 .start-button {
@@ -1604,6 +1614,10 @@ footer {
     font-weight: 600;
 
     transition: 0.3s;
+
+    width: min(35vw, 500px);
+
+    height: 70px;
 }
 
 .start-button:hover {
@@ -1750,6 +1764,9 @@ footer {
     .start-button {
 
         width: 100%;
+
+        text-decoration: none;
+
     }
 
     .page-header h1 {

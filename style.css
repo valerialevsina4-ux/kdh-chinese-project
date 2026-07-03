@@ -1603,7 +1603,7 @@ footer {
 
     padding: 2rem 4rem;
 
-    border: none;
+    border:#2c055f;
 
     border-radius: 999px;
 
@@ -1611,7 +1611,7 @@ footer {
 
     font-size: 2.5rem;
 
-    font-weight: 100;
+    font-weight: 800;
 
     transition: 0.3s;
 
@@ -1619,9 +1619,11 @@ footer {
 
     height: 70px;
 
-    margin-bottom: 20px;
+    display: flex;
 
-    text-align: center;
+    justify-content: center;
+
+    align-items: center;
 }
 
 .start-button:hover {

@@ -1603,9 +1603,11 @@ footer {
 
     padding: 2rem 4rem;
 
-    border-color:#2c055f;
+    border-color:
+    #2c055f,
+    #2c055f;
 
-    border-width: 1rem;
+    border-width: 0.5rem;
 
     border-radius: 999px;
 

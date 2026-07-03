@@ -1601,7 +1601,7 @@ footer {
 
 .start-button {
 
-    padding: 1.5rem 3rem;
+    padding: 2rem 4rem;
 
     border: none;
 
@@ -1618,6 +1618,8 @@ footer {
     width: min(35vw, 500px);
 
     height: 70px;
+
+    margin-bottom: 20px;
 }
 
 .start-button:hover {

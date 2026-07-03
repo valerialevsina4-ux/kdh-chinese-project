@@ -1620,6 +1620,8 @@ footer {
     height: 70px;
 
     margin-bottom: 20px;
+
+    text-align: center;
 }
 
 .start-button:hover {

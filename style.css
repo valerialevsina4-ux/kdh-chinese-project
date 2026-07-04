@@ -1903,6 +1903,10 @@ footer {
 
     position: absolute;
 
+    width: 100%;
+
+    padding: 1rem;
+
     top: 30px;
 
     right: 30px;

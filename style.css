@@ -1910,6 +1910,8 @@ footer {
     cursor: pointer;
 
     font-size: 2rem;
+
+    font-weight: 600;
 }
 
 .progress-container {

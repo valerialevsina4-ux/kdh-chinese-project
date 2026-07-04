@@ -15,10 +15,10 @@ startButton.addEventListener("click", function(){
     deckOverlay.style.display = "flex";
 });
 
-const closeOverlay =
-document.querySelector(".close-overlay");
+const closeButton =
+document.querySelector(".close-button");
 
-closeOverlay.addEventListener("click", function(){
+closeButton.addEventListener("click", function(){
 
     deckOverlay.style.display = "none";
 });
@@ -67,5 +67,5 @@ currentCard++;
 showCard(currentCard);
 
 function updateProgress(){
-    
+
 }

@@ -1828,28 +1828,7 @@ footer {
     transform: rotateY(180deg);
 }
 
-.card-front {
-
-    position: absolute;
-
-    padding: 25px;
-
-    inset: 0;
-
-    border-radius: 24px;
-
-    overflow: hidden;
-
-    backface-visibility: hidden;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: center;
-}
+.card-front,
 
 .card-back {
 

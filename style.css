@@ -1773,7 +1773,9 @@ footer {
 
     inset: 0;
 
-    display: none;
+    display: flex;
+
+    flex-direction: column;
 
     justify-content: center;
 
@@ -1821,7 +1823,7 @@ footer {
     transform-style: preserve-3d;
 }
 
-.flashcard.flipped .flashcard-inner {
+.flashcard-inner {
 
     transform: rotateY(180deg);
 }

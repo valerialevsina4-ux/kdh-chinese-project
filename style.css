@@ -1904,11 +1904,6 @@ footer {
     margin-top: 30px;
 }
 
-.card-back {
-
-    transform: rotateY(180deg);
-}
-
 .card-back h2 {
 
     font-size: 2.5rem;

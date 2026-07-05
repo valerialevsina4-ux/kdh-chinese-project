@@ -30,12 +30,12 @@ startLearning.addEventListener("click", function(){
     flashcardOverlay.style.display = "flex";
 });
 
-const flashcardInner =
-document.querySelector(".flashcard-inner");
+const flashcard =
+document.querySelector(".flashcard");
 
-flashcardInner.addEventListener("click", function(){
+flashcard.addEventListener("click", function(){
 
-    flashcardInner.classList.toggle("flipped");
+    flashcard.classList.toggle("flipped");
 });
 
 const cards = [

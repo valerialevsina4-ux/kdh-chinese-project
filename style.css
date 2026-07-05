@@ -1794,8 +1794,6 @@ footer {
 
     border-radius: 28px;
 
-    background: #613a61;
-
     overflow: hidden;
 
     box-shadow:
@@ -1815,6 +1813,8 @@ footer {
     position: relative;
 
     width: 100%;
+
+    background: #613a61;
 
     height: 100%;
 

@@ -1853,6 +1853,11 @@ footer {
     align-items: center;
 }
 
+.card-back {
+
+    transform: rotateY(180deg);
+}
+
 .card-front img {
 
     width: 90%;

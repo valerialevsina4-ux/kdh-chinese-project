@@ -1863,8 +1863,6 @@ footer {
 
     position: absolute;
 
-    transform: rotateY(180deg);
-
     padding: 25px;
 
     inset: 0;

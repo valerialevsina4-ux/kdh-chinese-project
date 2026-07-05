@@ -1821,19 +1821,11 @@ footer {
     transition: 0.8s;
 
     transform-style: preserve-3d;
-
-    transform: rotateY(180deg);
 }
 
-.flashcard-wrapped {
+.flashcard-inner .flashcard.flipped {
 
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    gap: 40px;
+    transform: rotateY(180deg);
 }
 
 .card-front {

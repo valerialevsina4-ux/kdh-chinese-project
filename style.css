@@ -1839,11 +1839,13 @@ footer {
 
     position:absolute;
 
-    inset:-30%;
+    inset:0;
+
+    border-radius:inherit;
 
     pointer-events:none;
 
-    z-index:50;
+    z-index:20;
 
     opacity:0.65;
 
@@ -1861,13 +1863,9 @@ footer {
     transparent 66%
     );
 
-    transform:
+    transform:translate(-180%, -180%) rotate(0deg);
 
-    translateX(-180%)
-    translateY(-180%)
-    rotate(0deg);
-
-    animation:15s infinite;
+    animation:holoMove 75s linear infinite;
 }
 
 .card-front,
@@ -1897,34 +1895,48 @@ footer {
 
 .card-back{
 
-    transform: rotateY(180deg);
+    transform:rotateY(180deg);
+
+    position:absolute;
+
+    z-index:10;
 }
 
 .card-front img{
 
-    width: 90%;
+    width:90%;
 
-    height: 420px;
+    height:420px;
 
-    object-fit: cover;
+    z-index:10;
 
-    border-radius: 18px;
+    object-fit:cover;
 
-    margin-bottom: 20px;
+    border-radius:18px;
+
+    margin-bottom:20px;
 }
 
 .card-front h2 {
 
     font-size: 3rem;
 
+    position:relative;
+
+    z-index:30;
+
     margin-top: 25px;
 }
 
 .card-front{
 
-    box-shadow:
+    box-shadow:inset 0 0 0 2px rgba(255,255,255,0.15);
 
-    inset 0 0 0 2px rgba(255,255,255,0.15);
+    position:absolute;
+
+    z-index:10;
+
+    overflow:hidden;
 }
 
 .card-back h2 {
@@ -2128,5 +2140,23 @@ footer {
     .deck-button {
 
         font-size: 1rem;
+    }
+}
+
+@keyframes holoMove{
+
+    0%{
+        transform:
+        translate(-180%, -180%);
+    }
+
+    20%{
+        transform: 
+        translate(180%, 180%);
+    }
+
+    100%{
+        transform: 
+        translate(180%, 180%);
     }
 }

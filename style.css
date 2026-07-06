@@ -1860,42 +1860,6 @@ footer {
     animation:holoShine 60s linear infinite;
 }
 
-.flashcard::before{
-
-    content:"";
-
-    position:absolute;
-    right:-6px;
-    top:10px;
-    bottom:10px;
-
-    width:10px;
-
-    height:calc(100% - 16px);
-
-    background:linear-gradient(
-    to right,
-    #2b1637,
-    #4d2d62,
-    #2b1637
-    );
-
-    border-radius:0 16px 16px 0;
-
-    opacity:0;
-    transition:opacity 0.3s;
-
-    box-shadow:
-
-    -2px 0 8px rgba(0,0,0,0.25),
-    2px 0 8px rgba(255,255,255,0.08);
-}
-
-.flashcard.flipped::before{
-
-    opacity:1;
-}
-
 @keyframes holoShine{
 
     0%{

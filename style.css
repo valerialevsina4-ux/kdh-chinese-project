@@ -1835,6 +1835,41 @@ footer {
     transform: rotateY(180deg);
 }
 
+.holo-shine{
+
+    position:absolute;
+
+    inset:-30%;
+
+    pointer-events:none;
+
+    z-index:50;
+
+    opacity:0.65;
+
+    mix-blend-mode:screen;
+
+    background:linear-gradient(
+
+    135deg,
+    transparent 34%,
+    rgba(0,95,255,0.75) 41%,
+    rgba(0,255,255,0.55) 45%,
+    rgba(255,255,150,0.7) 50%,
+    rgba(255,150,80,0.55) 54%,
+    rgba(255,60,60,0.7) 58%,
+    transparent 66%
+    );
+
+    transform:
+
+    translateX(-180%)
+    translateY(-180%)
+    rotate(0deg);
+
+    animation:15s infinite;
+}
+
 .card-front,
 
 .card-back{

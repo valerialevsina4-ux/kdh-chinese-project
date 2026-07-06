@@ -1835,40 +1835,6 @@ footer {
     transform: rotateY(180deg);
 }
 
-.flashcard-inner::after{
-
-    content:"";
-
-    position:absolute;
-    inset:0;
-
-    border-radius:inherit;
-    pointer-events:none;
-
-    background:linear-gradient(
-    115deg,
-    transparent 20%,
-    rgba(255,255,255,0.15) 45%,
-    rgba(255,255,255,0.35) 50%,
-    rgba(255,255,255,0.15) 55%,
-    transparent 80%
-    );
-
-    transform:translateX(-120%);
-    animation:holoShine 60s linear infinite;
-}
-
-@keyframes holoShine{
-
-    0%{
-        transform:translateX(-120%);
-    }
-
-    100%{
-        transform:translateX(120%);
-    }
-}
-
 .card-front,
 
 .card-back{

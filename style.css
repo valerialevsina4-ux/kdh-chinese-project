@@ -1812,6 +1812,8 @@ footer {
 
     position: relative;
 
+    overflow:hidden;
+
     width: 100%;
 
     background:linear-gradient(
@@ -1840,15 +1842,13 @@ footer {
     content:"";
 
     position:absolute;
-
     inset:0;
 
     border-radius:inherit;
-
     pointer-events:none;
 
-    background:linear-gradient(115deg,
-    
+    background:linear-gradient(
+    115deg,
     transparent 20%,
     rgba(255,255,255,0.15) 45%,
     rgba(255,255,255,0.35) 50%,
@@ -1856,8 +1856,7 @@ footer {
     transparent 80%
     );
 
-    transform:translateX(-150%);
-
+    transform:translateX(-120%);
     animation:holoShine 60s linear infinite;
 }
 
@@ -1866,33 +1865,45 @@ footer {
     content:"";
 
     position:absolute;
+    right:-6px;
+    top:10px;
+    bottom:10px;
 
-    right:-4px;
-
-    top:8px;
-
-    width:8px;
+    width:10px;
 
     height:calc(100% - 16px);
 
-    background:linear-gradient(to right,
-    
+    background:linear-gradient(
+    to right,
     #2b1637,
     #4d2d62,
     #2b1637
     );
 
-    border-radius:0 18px 18px 0;
+    border-radius:0 16px 16px 0;
+
+    opacity:0;
+    transition:opacity 0.3s;
+
+    box-shadow:
+
+    -2px 0 8px rgba(0,0,0,0.25),
+    2px 0 8px rgba(255,255,255,0.08);
+}
+
+.flashcard.flipped::before{
+
+    opacity:1;
 }
 
 @keyframes holoShine{
 
     0%{
-        transform:translateX(-150%);
+        transform:translateX(-120%);
     }
 
     100%{
-        transform:translateX(150%);
+        transform:translateX(120%);
     }
 }
 

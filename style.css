@@ -1908,14 +1908,18 @@ footer {
 
 .card-back h2 {
 
-    font-size: 2.5rem;
+    font-size:2.5rem;
 
-    margin-bottom: 2rem;
+    margin-bottom:2rem;
+
+    z-index:20;
 }
 
 .card-back p {
 
-    font-size: 1.5rem;
+    font-size:1.5rem;
+
+    z-index:20;
 }
 
 .card-front::after {

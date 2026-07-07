@@ -1944,7 +1944,7 @@ footer {
 .arrow-left,
 .arrow-right{
 
-    font-size:4rem;
+    font-size:8rem;
 
     cursor:pointer;
 
@@ -2011,6 +2011,10 @@ footer {
     box-shadow:0 0 20px rgba(139, 92, 246, 0.6);
 
     margin-top:35px;
+
+    align-items:flex-end;
+
+    justify-content:center;
 }
 
 .exit-button:hover{

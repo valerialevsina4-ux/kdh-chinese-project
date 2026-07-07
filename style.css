@@ -1775,7 +1775,7 @@ footer {
 
     gap:40;
 
-    display: flex;
+    display:none;
 
     flex-direction: column;
 

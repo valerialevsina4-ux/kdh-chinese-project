@@ -1823,8 +1823,6 @@ footer {
     transition:1.2s;
 
     transform-style:preserve-3d;
-
-    z-index:0;
 }
 
 .flashcard.flipped .flashcard-inner{
@@ -1862,7 +1860,7 @@ footer {
 
     position:absolute;
 
-    z-index:5;
+    z-index:1;
 }
 
 .card-front img{
@@ -1870,8 +1868,6 @@ footer {
     width:90%;
 
     height:420px;
-
-    z-index:50;
 
     object-fit:cover;
 
@@ -1886,8 +1882,6 @@ footer {
 
     position:relative;
 
-    z-index:50;
-
     margin-top:25px;
 }
 
@@ -1897,7 +1891,7 @@ footer {
 
     position:absolute;
 
-    z-index:5;
+    z-index:1;
 
     overflow:hidden;
 }
@@ -1907,15 +1901,11 @@ footer {
     font-size:2.5rem;
 
     margin-bottom:2rem;
-
-    z-index:50;
 }
 
 .card-back p{
 
     font-size:1.5rem;
-
-    z-index:50;
 }
 
 .card-front::after{
@@ -2054,7 +2044,7 @@ footer {
 
     position:absolute;
 
-    z-index:10;
+    z-index:0;
 
     inset:0;
 
@@ -2073,9 +2063,28 @@ footer {
 
     pointer-events:none;
 
-    z-index:100;
+    z-index:2;
 
     background:linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 18%, rgba(255,255,255,0.00) 45%, rgba(0,0,0,0.03) 75%, rgba(0,0,0,0.08) 100%);
+}
+
+.card-content{
+
+    position:relative;
+
+    z-index:10;
+
+    width:100%;
+
+    height:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
 }
 
 @media(max-width: 768px){

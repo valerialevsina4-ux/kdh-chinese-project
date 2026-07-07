@@ -1867,15 +1867,19 @@ footer {
 
     display:flex;
 
-    flex-direction:column;
+    flex-direction:space-between;
 
     align-items:center;
 
     justify-content:center;
 
+    padding:28px;
+
     width:100%;
 
     height:100%;
+
+    box-sizing:border-box;
 }
 
 .card-front img{
@@ -1921,19 +1925,6 @@ footer {
 .card-back p{
 
     font-size:1.5rem;
-}
-
-.card-front::after{
-
-    content:"Click to reveal";
-
-    margin-top:auto;
-
-    margin-bottom:1.5rem;
-
-    font-size:0.9rem;
-
-    opacity:0.6;
 }
 
 .flashcard:hover{
@@ -2001,6 +1992,21 @@ footer {
     background:linear-gradient(90deg, #5f11ff, #904cff);
 
     box-shadow:0 0 30px rgba(142,92,246,0.65);
+}
+
+.card-bg{
+
+    position:absolute;
+
+    inset:0;
+
+    border-radius:28px;
+
+    background:linear-gradient(180deg, #5a3f74 0%, #674686 45%, #503368 100%);
+
+    box-shadow:inset 0 0 0 2px rgba(255,255,255,0.12), 0 18px 45px rgba(0,0,0,0.45);
+
+    z-index:0;
 }
 
 .close-button{

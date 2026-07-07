@@ -1963,6 +1963,16 @@ footer {
     text-shadow:0 0 8px #ffffff, 0 0 18px #8b5cf6, 0 0 28px #8b5cf6;
 }
 
+.arrow-left{
+
+    margin-right:40px;
+}
+
+.arrow-right{
+
+    margin-left:40px;
+}
+
 .close-button{
 
     padding:1rem;

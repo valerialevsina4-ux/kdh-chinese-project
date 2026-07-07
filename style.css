@@ -1810,54 +1810,50 @@ footer {
 
 .flashcard-inner{
 
-    position: relative;
+    position:relative;
 
-    width: 100%;
+    width:100%;
 
-    background:linear-gradient(
-        180deg,
-        #4f3466 0%,
-        #56376e 40%,
-        #4b315f 100%
-    );
+    background:linear-gradient(180deg, #4f3466 0%, #56376e 40%, #4b315f 100%);
 
-    border-radius: 28px;
+    border-radius:28px;
 
-    height: 100%;
+    height:100%;
 
-    transition: 1.2s;
+    transition:1.2s;
 
-    transform-style: preserve-3d;
+    transform-style:preserve-3d;
+
+    z-index:0;
 }
 
 .flashcard.flipped .flashcard-inner{
 
-    transform: rotateY(180deg);
+    transform:rotateY(180deg);
 }
 
 .card-front,
-
 .card-back{
 
-    position: absolute;
+    position:absolute;
 
-    padding: 25px;
+    padding:25px;
 
-    inset: 0;
+    inset:0;
 
-    border-radius: 28px;
+    border-radius:28px;
 
-    overflow: hidden;
+    overflow:hidden;
 
-    backface-visibility: hidden;
+    backface-visibility:hidden;
 
-    display: flex;
+    display:flex;
 
-    flex-direction: column;
+    flex-direction:column;
 
-    justify-content: center;
+    justify-content:center;
 
-    align-items: center;
+    align-items:center;
 }
 
 .card-back{
@@ -1866,7 +1862,7 @@ footer {
 
     position:absolute;
 
-    z-index:10;
+    z-index:5;
 }
 
 .card-front img{
@@ -1875,7 +1871,7 @@ footer {
 
     height:420px;
 
-    z-index:10;
+    z-index:50;
 
     object-fit:cover;
 
@@ -1884,15 +1880,15 @@ footer {
     margin-bottom:20px;
 }
 
-.card-front h2 {
+.card-front h2{
 
-    font-size: 3rem;
+    font-size:3rem;
 
     position:relative;
 
-    z-index:30;
+    z-index:50;
 
-    margin-top: 25px;
+    margin-top:25px;
 }
 
 .card-front{
@@ -1901,95 +1897,91 @@ footer {
 
     position:absolute;
 
-    z-index:10;
+    z-index:5;
 
     overflow:hidden;
 }
 
-.card-back h2 {
+.card-back h2{
 
     font-size:2.5rem;
 
     margin-bottom:2rem;
 
-    z-index:20;
+    z-index:50;
 }
 
-.card-back p {
+.card-back p{
 
     font-size:1.5rem;
 
-    z-index:20;
+    z-index:50;
 }
 
-.card-front::after {
+.card-front::after{
 
     content:"Click to reveal";
 
-    margin-top: auto;
+    margin-top:auto;
 
-    margin-bottom: 1.5rem;
+    margin-bottom:1.5rem;
 
-    font-size: 0.9rem;
+    font-size:0.9rem;
 
-    opacity: 0.6;
+    opacity:0.6;
 }
 
-.flashcard:hover {
+.flashcard:hover{
 
-    transform: translateY(-6px);
+    transform:translateY(-6px);
 }
 
-.flashcard-container {
+.flashcard-container{
 
-    display: flex;
+    display:flex;
 
-    align-items: center;
+    align-items:center;
 
-    justify-content: center;
+    justify-content:center;
 
-    gap: 40px;
+    gap:40px;
 }
 
 .arrow-left,
-.arrow-right {
+.arrow-right{
 
-    font-size: 4rem;
+    font-size:4rem;
 
-    cursor: pointer;
+    cursor:pointer;
 
-    user-select: none;
+    user-select:none;
 
-    background: none;
+    background:none;
 
-    border: none;
+    border:none;
 
-    transition: 0.25s;
+    transition:0.25s;
 
-    color: white;
+    color:white;
 
-    transform: scale(1.2);
+    transform:scale(1.2);
 
-    text-shadow:
-
-    0 0 8px #ffffff,
-    0 0 18px #8b5cf6,
-    0 0 28px #8b5cf6;
+    text-shadow:0 0 8px #ffffff, 0 0 18px #8b5cf6, 0 0 28px #8b5cf6;
 }
 
-.close-button {
+.close-button{
 
-    padding: 1rem;
+    padding:1rem;
 
-    top: 30px;
+    top:30px;
 
-    right: 30px;
+    right:30px;
 
-    cursor: pointer;
+    cursor:pointer;
 
-    font-size: 2rem;
+    font-size:2rem;
 
-    font-weight: 600;
+    font-weight:600;
 }
 
 .exit-button{
@@ -2062,6 +2054,8 @@ footer {
 
     position:absolute;
 
+    z-index:10;
+
     inset:0;
 
     border-radius:inherit;
@@ -2079,7 +2073,7 @@ footer {
 
     pointer-events:none;
 
-    z-index: 10;
+    z-index:20;
 
     background:linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 18%, rgba(255,255,255,0.00) 45%, rgba(0,0,0,0.03) 75%, rgba(0,0,0,0.08) 100%);
 }

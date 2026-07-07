@@ -2011,10 +2011,17 @@ footer {
     box-shadow:0 0 20px rgba(139, 92, 246, 0.6);
 
     margin-top:35px;
+}
 
-    align-items:flex-end;
+.exit-container{
 
-    justify-content:center;
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    align-items:center;
 }
 
 .exit-button:hover{

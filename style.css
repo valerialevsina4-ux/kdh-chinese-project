@@ -2010,18 +2010,7 @@ footer {
 
     box-shadow:0 0 20px rgba(139, 92, 246, 0.6);
 
-    margin-top:35px;
-}
-
-.exit-container{
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:flex-end;
-
-    align-items:center;
+    margin-top:auto;
 }
 
 .exit-button:hover{

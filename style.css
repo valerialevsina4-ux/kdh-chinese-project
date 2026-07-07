@@ -1769,7 +1769,7 @@ footer {
 
 .flashcard-overlay{
 
-    position: fixed;
+    position:fixed;
 
     inset: 0;
 
@@ -1986,100 +1986,6 @@ footer {
     font-size:2rem;
 
     font-weight:600;
-}
-
-.exit-button{
-
-    width:220px;
-
-    height:60px;
-
-    border:none;
-
-    border-radius:999px;
-
-    color:white;
-
-    font-size:1.1rem;
-
-    font-weight:600;
-
-    cursor:pointer;
-
-    background:linear-gradient(135deg, #8b5cf6, #6d28d9);
-
-    box-shadow:0 0 20px rgba(139, 92, 246, 0.6);
-
-    margin-top:auto;
-}
-
-.exit-button:hover{
-
-    transform:translateY(-3px);
-}
-
-.bottom-controls{
-
-    display:flex;
-
-    justify-content:center;
-
-    margin-top:40px;
-}
-
-.progress-container{
-
-    width:420px;
-
-    margin:0 auto 2rem;
-}
-
-.progress-bar{
-
-    width:100%;
-
-    height:10px;
-
-    border-radius:999px;
-
-    overflow:hidden;
-}
-
-.progress-fill{
-
-    width:25%;
-
-    height:100%;
-
-    border-radius:999px;
-}
-
-.card-bg{
-
-    position:absolute;
-
-    z-index:0;
-
-    inset:0;
-
-    border-radius:inherit;
-
-    background:linear-gradient(180deg, #4f3466, #56376e, #4b315f);
-}
-
-.plastic-layer{
-
-    position:absolute;
-
-    inset:0;
-
-    border-radius:inherit;
-
-    pointer-events:none;
-
-    z-index:2;
-
-    background:linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 18%, rgba(255,255,255,0.00) 45%, rgba(0,0,0,0.03) 75%, rgba(0,0,0,0.08) 100%);
 }
 
 .card-content{

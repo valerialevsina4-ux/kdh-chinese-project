@@ -1773,6 +1773,8 @@ footer {
 
     inset: 0;
 
+    gap:40;
+
     display: none;
 
     flex-direction: column;

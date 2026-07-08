@@ -1828,9 +1828,9 @@ footer {
 
     overflow:visible;
 
-    align-items:center;
+    margin-top:30px;
 
-    margin-top:20px;
+    margin-left:20px;
 }
 
 .flashcard.flipped .flashcard-inner{

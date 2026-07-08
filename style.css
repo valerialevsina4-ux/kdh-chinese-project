@@ -1886,6 +1886,8 @@ footer {
 
     height:400px;
 
+    border:black;
+
     object-fit:cover;
 
     border-radius:18px;
@@ -1902,6 +1904,8 @@ footer {
     position:relative;
 
     margin-top:25px;
+
+    border:black;
 }
 
 .card-front{
@@ -1956,7 +1960,7 @@ footer {
 
     color:white;
 
-    font-size:72px;
+    font-size:130px;
 
     transition:0.3s;
 

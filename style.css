@@ -2071,7 +2071,7 @@ footer {
 
     border-radius:28px;
 
-    background:linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03), rgba(255,255,255,0), rgba(0,0,0,0.08));
+    background:linear-gradient(180deg, transparent 38%, rgba(255,255,255,0.08), rgba(255,255,255,0.03), rgba(255,255,255,0), rgba(0,0,0,0.08) transparent 62%);
 }
 
 .close-button{
@@ -2091,11 +2091,15 @@ footer {
 
 @keyframes glossMove{
 
-    0%{transform: translateX(-180%) rotate(22deg);}
+    0%{transform: translate(-220%,-220%); opacity:0;}
 
-    20%{transform: translateX(320%) rotate(22deg);}
+    3%{opacity:0.8;}
 
-    100%{transform: translateX(320%) rotate(22deg);}
+    20%{transform: translate(220%,220%); opacity:0.8;}
+
+    24%{transform:translate(260%,260%); opacity:0;}
+
+    100%{transform: translate(260%,260%); opacity:0;}
 }
 
 @media(max-width: 768px){

@@ -1827,6 +1827,10 @@ footer {
     transition:1.1s;
 
     overflow:visible;
+
+    align-items:center;
+
+    margin-top:20px;
 }
 
 .flashcard.flipped .flashcard-inner{

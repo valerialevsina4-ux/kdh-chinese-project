@@ -1888,7 +1888,7 @@ footer {
 
     border:black;
 
-    border-style:groove;
+    border-style:solid;
 
     object-fit:cover;
 
@@ -1907,9 +1907,9 @@ footer {
 
     margin-top:25px;
 
-    border:black;
+    color:#eed5fd;
 
-    border-style:double;
+    -webkit-text-stroke:1px black;
 }
 
 .card-front{

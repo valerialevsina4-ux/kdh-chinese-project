@@ -1769,7 +1769,7 @@ footer {
 
     inset:0;
 
-    display:flex;
+    display:none;
 
     flex-direction:column;
 

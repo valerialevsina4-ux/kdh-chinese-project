@@ -1907,7 +1907,7 @@ footer {
 
     border:black;
 
-    border-style:inherit;
+    border-style:initial;
 }
 
 .card-front{

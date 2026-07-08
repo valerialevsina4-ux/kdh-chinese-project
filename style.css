@@ -1923,7 +1923,7 @@ footer {
 
 .card-back h2{
 
-    font-size:2.5rem;
+    font-size:3.5rem;
 
     margin-bottom:2rem;
 
@@ -1935,6 +1935,10 @@ footer {
 .card-back p{
 
     font-size:1.5rem;
+
+    color:#eed5fd;
+
+    -webkit-text-stroke:0.5px black;
 }
 
 .flashcard:hover{

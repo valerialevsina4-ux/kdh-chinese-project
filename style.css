@@ -2091,15 +2091,11 @@ footer {
 
 @keyframes glossMove{
 
-    0%{transform: translate(-220%,-220%); opacity:0;}
+    0%{transform: translateX(-180%) rotate(22deg);}
 
-    3%{opacity:0.8;}
+    20%{transform: translateX(320%) rotate(22deg);}
 
-    20%{transform: translate(220%,220%); opacity:0.8;}
-
-    24%{transform:translate(260%,260%); opacity:0;}
-
-    100%{transform: translate(260%,260%); opacity:0;}
+    100%{transform: translateX(320%) rotate(22deg);}
 }
 
 @media(max-width: 768px){

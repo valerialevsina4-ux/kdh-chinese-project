@@ -1888,6 +1888,8 @@ footer {
 
     border:black;
 
+    border-style:groove;
+
     object-fit:cover;
 
     border-radius:18px;
@@ -1907,7 +1909,7 @@ footer {
 
     border:black;
 
-    border-style:groove;
+    border-style:double;
 }
 
 .card-front{

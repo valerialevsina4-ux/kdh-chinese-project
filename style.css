@@ -2099,7 +2099,9 @@ footer {
 
     20%{transform: translateX(320%) rotate(22deg);}
 
-    100%{transform: translateX(350%) rotate(22deg);}
+    60%{transform: translateX(350%) rotate(22deg);}
+
+    100%{transform: translateX(400%) rotate(22deg);}
 }
 
 @media(max-width: 768px){

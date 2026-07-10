@@ -2097,11 +2097,7 @@ footer {
 
     0%{transform: translate(-220%,-220%) rotate(22deg); opacity:0;}
 
-    2%{opacity:0.8;}
-
     20%{transform: translate(220%,220%) rotate(22deg); opacity:0.8;}
-
-    21%{opacity:0;}
 
     100%{transform: translate(-220%,-220%) rotate(22deg); opacity:0;}
 }

@@ -1993,7 +1993,7 @@ footer {
 
 .exit-button{
 
-    width:400px;
+    width:300px;
 
     height:120px;
 
@@ -2024,7 +2024,7 @@ footer {
 
     align-items:center;
 
-    gap:10px;
+    gap:5px;
 }
 
 .progress-bar{

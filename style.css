@@ -1773,7 +1773,7 @@ footer {
 
     flex-direction:column;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     align-items:center;
 
@@ -1784,6 +1784,10 @@ footer {
     backdrop-filter:blur(8px);
 
     z-index:999;
+
+    padding-top:40px;
+
+    overflow-y:auto;
 }
 
 .flashcard-container{

@@ -74,6 +74,10 @@ rightArrow.addEventListener("click",()=>{
     showCard(currentCard);
 });
 
+const progressFill = document.querySelector(".progress-fill");
+
+const progressText = document.querySelector(".progress-text");
+
 const cards = [
 
     {

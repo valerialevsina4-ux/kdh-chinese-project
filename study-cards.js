@@ -157,9 +157,9 @@ function showCard(index){
 
 function updateProgress(){
 
-    const percent=((currentCard+1)/cards.length)*100;
+    const percent = ((currentCard + 1) / cards.length) * 100;
 
-    progressFill.style.width=percent+"%";
+    progressFill.style.width = percent + "%";
 
-    progressText.textContent=`${currentCard+1}/${cards.length}`;
+    progressText.textContent = `${currentCard + 1} / ${cards.length}`;
 }

@@ -2128,7 +2128,7 @@ footer {
 
 .close-button{
 
-    padding:1rem;
+    padding:2rem;
 
     top:30px;
 
@@ -2139,8 +2139,6 @@ footer {
     font-size:2rem;
 
     font-weight:600;
-
-    height:40px;
 }
 
 @keyframes glossMove{

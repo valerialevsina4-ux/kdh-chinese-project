@@ -1777,7 +1777,7 @@ footer {
 
     align-items:center;
 
-    gap:40px;
+    gap:30px;
 
     background:rgba(0, 0, 0, 0.72);
 
@@ -1950,17 +1950,6 @@ footer {
 .flashcard:hover{
 
     transform:translateY(-6px);
-}
-
-.flashcard-container{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    gap:20px;
 }
 
 .arrow-left,

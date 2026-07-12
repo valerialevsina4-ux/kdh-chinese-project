@@ -2139,6 +2139,8 @@ footer {
     font-size:2rem;
 
     font-weight:600;
+
+    height:40px;
 }
 
 @keyframes glossMove{

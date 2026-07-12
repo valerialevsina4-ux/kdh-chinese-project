@@ -153,7 +153,7 @@ function showCard(index){
 
 function updateProgress(){
 
-    const percent=((currenrCard+1)/cards.length)*100;
+    const percent=((currentCard+1)/cards.length)*100;
 
     progressFill.style.width=percent+"%";
 

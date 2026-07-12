@@ -52,7 +52,7 @@ leftArrow.addEventListener("click",()=>{
 
     currentCard--;
 
-    if(currenrCard<0){
+    if(currentCard<0){
 
         currentCard=cards.length-1;
     }

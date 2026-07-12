@@ -105,13 +105,13 @@ const cards = [
     },
 
     {
-        chinese:"帽子",
+        chinese:"拉面",
 
-        pinyin:"màozi",
+        pinyin:"lāmiàn",
 
-        english:"Hat",
+        english:"Ramen",
 
-        image:"Hat.jpg",
+        image:"Ramen.jpg",
 
         type:"Noun",
 

@@ -92,7 +92,7 @@ const exitButton = document.querySelector(".exit-button");
 
 exitButton.addEventListener("click",()=>{
 
-    flashcardInner.classList.add("hidden");
+    flashcardOverlay.classList.add("hidden");
 });
 
 const cards = [

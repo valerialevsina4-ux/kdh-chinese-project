@@ -90,7 +90,7 @@ const exitButton = document.querySelector(".exit-button");
 
 exitButton.addEventListener("click",()=>{
 
-    flashcard.classList.add("hidden");
+    flashcardOverlay.classList.add("hidden");
 });
 
 const cards = [

@@ -90,9 +90,9 @@ const progressText = document.querySelector(".progress-text");
 
 const exitButton = document.querySelector(".exit-button");
 
-exitButton.addEventListener("click",()=>{
+exitButton.addEventListener("click", function(){
 
-    flashcardOverlay.classList.add("hidden");
+    flashcardOverlay.style.display = "none";
 });
 
 const cards = [

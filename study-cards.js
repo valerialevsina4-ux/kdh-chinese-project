@@ -58,6 +58,10 @@ leftArrow.addEventListener("click",()=>{
     }
 
     showCard(currentCard);
+
+    flashcard.classList.remove("flipped");
+
+    updateProgress();
 });
 
 const rightArrow = document.querySelector(".arrow-right");
@@ -72,6 +76,10 @@ rightArrow.addEventListener("click",()=>{
     }
 
     showCard(currentCard);
+
+    flashcard.classList.remove("flipped");
+
+    updateProgress();
 });
 
 const progressFill = document.querySelector(".progress-fill");

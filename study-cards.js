@@ -91,14 +91,6 @@ const exitButton = document.querySelector(".exit-button");
 exitButton.addEventListener("click",()=>{
 
     flashcardOverlay.classList.add("hidden");
-
-    flashcard.classList.remove("flipped");
-
-    currentCard=0;
-
-    showCard(currentCard);
-
-    updateProgress();
 });
 
 const cards = [

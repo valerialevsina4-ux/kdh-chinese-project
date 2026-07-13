@@ -10,6 +10,8 @@ document.querySelector(".flashcard-overlay");
 const startLearning =
 document.querySelector(".start-learning");
 
+const flashcardInner = document.querySelector(".flashcard-inner");
+
 startButton.addEventListener("click", function(){
 
     deckOverlay.style.display = "flex";
@@ -90,7 +92,7 @@ const exitButton = document.querySelector(".exit-button");
 
 exitButton.addEventListener("click",()=>{
 
-    flashcardOverlay.classList.add("hidden");
+    flashcardInner.classList.add("hidden");
 });
 
 const cards = [

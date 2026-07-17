@@ -137,6 +137,35 @@ const cards = [
         type:"Noun",
 
         hsk:"HSK 1"
+    },
+
+    {
+        chinese:"麦当劳",
+
+        pinyin:"Màidāngláo",
+
+        english:"McDonald's",
+
+        image:"McDonalds.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 2"
+    },
+
+    {
+        chinese:"战斗",
+
+        pinyin:"zhàndòu",
+
+        english:"To Fight",
+
+        image:"To_Fight.jpg",
+
+        type:"Verb",
+
+        hsk:"HSK 4"
+
     }
 ];
 

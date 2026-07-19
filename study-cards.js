@@ -236,6 +236,62 @@ const cards = [
         type:"Verb",
 
         hsk:"HSK 1"
+    },
+
+    {
+        chinese:"飞",
+
+        pinyin:"fēi",
+
+        english:"To Fly",
+
+        image:"To_Fly.jpg",
+
+        type:"Verb",
+
+        hsk:"HSK 2"
+    },
+
+    {
+        chinese:"眼睛",
+
+        pinyin:"yǎnjing",
+
+        english:"Eyes",
+
+        image:"Eye.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 2"
+    },
+
+    {
+        chinese:"化妆",
+
+        pinyin:"huàzhuāng",
+
+        english:"Makeup",
+
+        image:"Makeup.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 4"
+    },
+
+    {
+        chinese:"手",
+
+        pinyin:"shǒu",
+
+        english:"Hands",
+
+        image:"Hands.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 1"
     }
 ];
 

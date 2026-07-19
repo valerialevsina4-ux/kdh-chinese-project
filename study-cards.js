@@ -179,7 +179,7 @@ const cards = [
 
         type:"Verb",
 
-        hsk:"HSK 2"
+        hsk:"HSK 1"
     },
 
     {
@@ -193,7 +193,49 @@ const cards = [
 
         type:"Verb",
 
+        hsk:"HSK 1"
+    },
+
+    {
+        chinese:"手机",
+
+        pinyin:"shǒujī",
+
+        english:"Phone",
+
+        image:"Phone.jpg",
+
+        type:"Noun",
+
         hsk:"HSK 2"
+    },
+
+    {
+        chinese:"哭",
+
+        pinyin:"kū",
+
+        english:"To Cry",
+
+        image:"To_Cry.jpg",
+
+        type:"Verb",
+
+        hsk:"HSK 3",
+    },
+
+    {
+        chinese:"吃",
+
+        pinyin:"chī",
+
+        english:"To Eat",
+
+        image:"To_Eat.jpg",
+
+        type:"Verb",
+
+        hsk:"HSK 1"
     }
 ];
 

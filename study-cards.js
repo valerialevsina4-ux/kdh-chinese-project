@@ -166,6 +166,34 @@ const cards = [
 
         hsk:"HSK 4"
 
+    },
+
+    {
+        chinese:"爱",
+
+        pinyin:"ài",
+
+        english:"To Love",
+
+        image:"To_Love.jpg",
+
+        type:"Verb",
+
+        hsk:"HSK 2"
+    },
+
+    {
+        chinese:"写",
+
+        pinyin:"xiě",
+
+        english:"To Write",
+
+        image:"To_Write.jpg",
+
+        type:"Verb",
+
+        hsk:"HSK 2"
     }
 ];
 

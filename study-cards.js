@@ -301,9 +301,65 @@ const cards = [
 
         english:"To Sing",
 
-        image:"To_Sing",
+        image:"To_Sing.jpg",
 
         type:"Verb",
+
+        hsk:"HSK 2"
+    },
+
+    {
+        chinese:"手链",
+
+        pinyin:"shǒuliàn",
+
+        english:"Bracelet",
+
+        image:"Bracelet.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 3"
+    },
+
+    {
+        chinese:"家庭",
+
+        pinyin:"jiātíng",
+
+        english:"Family",
+
+        image:"Family.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 2"
+    },
+
+    {
+        chinese:"建筑",
+
+        pinyin:"jiànzhù",
+
+        english:"Building",
+
+        image:"Building.jpg",
+
+        type:"Noun",
+
+        hsk:"HSK 5"
+    },
+
+    {
+        chinese:"生气",
+
+        pinyin:"shēngqì",
+
+        english:"Angry",
+
+        image:"Angry.jpg",
+
+        type:"Adjective",
 
         hsk:"HSK 2"
     }

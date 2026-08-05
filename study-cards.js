@@ -292,6 +292,20 @@ const cards = [
         type:"Noun",
 
         hsk:"HSK 1"
+    },
+
+    {
+        chinese:"唱歌",
+
+        pinyin:"chànggē",
+
+        english:"To Sing",
+
+        image:"To_Sing",
+
+        type:"Verb",
+
+        hsk:"HSK 2"
     }
 ];
 
